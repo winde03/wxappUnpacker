@@ -44,13 +44,14 @@ Android 手机最近使用过的微信小程序所对应的 wxapkg 包文件都�
 
 您需要安装这些包才能正确执行这些程序，为了做到这一点，您可以执行`npm install`；另外如需全局安装这些包可执行以下命令:
 
-    npm install esprima -g
-    npm install css-tree -g
-    npm install cssbeautify -g
-    npm install vm2 -g
-    npm install uglify-es -g
-    npm install js-beautify -g
-    npm install escodegen -g
+    npm install esprima –save-dev
+    npm install css-tree –save-dev
+    npm install cssbeautify –save-dev
+    npm install vm2 –save-dev
+    npm install uglify-es –save-dev
+    npm install js-beautify –save-dev
+    npm install escodegen –save-dev
+    
 
 此外，这些 node.js 程序之间也有一定的依赖关系，比如他们都依赖于 wuLib.js 。
 
